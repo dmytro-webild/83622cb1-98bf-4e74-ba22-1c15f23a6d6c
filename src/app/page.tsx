@@ -122,6 +122,7 @@ export default function LandingPage() {
         description="Everything you need to know."
         faqsAnimation="slide-up"
         useInvertedBackground={false}
+        textboxLayout="split"
         imageSrc="https://images.unsplash.com/photo-1557200134-90327ee9fafa?q=80&w=800&auto=format&fit=crop"
       />
   </div>
@@ -133,6 +134,7 @@ export default function LandingPage() {
         description="We'll help take your local business to the next level."
         buttonText="Send Request"
         useInvertedBackground={false}
+        background={{ variant: "plain" }}
       />
   </div>
 
