@@ -32,27 +32,17 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Services",
-          id: "features",
-        },
+          name: "Services",          id: "features"},
         {
-          name: "Testimonials",
-          id: "testimonials",
-        },
+          name: "Testimonials",          id: "testimonials"},
         {
-          name: "FAQ",
-          id: "faq",
-        },
+          name: "FAQ",          id: "faq"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
-      brandName="LocalWeb Pro"
+      brandName="NexaSites.com"
     />
   </div>
 
@@ -62,9 +52,7 @@ export default function LandingPage() {
       description="We build professional, responsive, and high-converting websites tailored for your local business to thrive online."
       buttons={[
         {
-          text: "Get Started",
-          href: "#contact",
-        },
+          text: "Get Started",          href: "#contact"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-high-tech-agency-dashboard-interface-d-1777592546396-33b70c48.png"
       imageAlt="A high-tech agency dashboard interface displaying local business website analytics. Sleek modern UI"
@@ -93,20 +81,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Responsive Design",
-          description: "Mobile-first approach that looks perfect on every device.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-set-of-three-clean-ui-icons-representi-1777592563399-0e06a83a.png",
-        },
+          title: "Responsive Design",          description: "Mobile-first approach that looks perfect on every device.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-set-of-three-clean-ui-icons-representi-1777592563399-0e06a83a.png"},
         {
-          title: "SEO Optimized",
-          description: "Designed to rank higher and attract more local traffic.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-set-of-three-clean-ui-icons-representi-1777592650529-8b9e5a1f.png",
-        },
+          title: "SEO Optimized",          description: "Designed to rank higher and attract more local traffic.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-set-of-three-clean-ui-icons-representi-1777592650529-8b9e5a1f.png"},
         {
-          title: "Full Support",
-          description: "Ongoing technical maintenance and rapid support.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-set-of-three-clean-ui-icons-representi-1777592660853-582120c2.png",
-        },
+          title: "Full Support",          description: "Ongoing technical maintenance and rapid support.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/a-set-of-three-clean-ui-icons-representi-1777592660853-582120c2.png"},
       ]}
       title="Everything you need to grow"
       description="Custom websites, SEO-friendly architecture, and blazing-fast hosting in one package."
@@ -120,26 +99,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "150+",
-          title: "Clients Helped",
-          description: "Growing community of local partners.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/infographic-showing-business-growth-char-1777592572957-2159e341.png",
-        },
+          id: "m1",          value: "150+",          title: "Clients Helped",          description: "Growing community of local partners.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/infographic-showing-business-growth-char-1777592572957-2159e341.png"},
         {
-          id: "m2",
-          value: "45%",
-          title: "Avg Growth",
-          description: "Increase in digital customer traffic.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/infographic-showing-business-growth-char-1777592670511-8db84a57.png",
-        },
+          id: "m2",          value: "45%",          title: "Avg Growth",          description: "Increase in digital customer traffic.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/infographic-showing-business-growth-char-1777592670511-8db84a57.png"},
         {
-          id: "m3",
-          value: "98%",
-          title: "Retention Rate",
-          description: "Businesses stay and grow with us.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/infographic-showing-business-growth-char-1777592678017-816ea5b7.png",
-        },
+          id: "m3",          value: "98%",          title: "Retention Rate",          description: "Businesses stay and grow with us.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/infographic-showing-business-growth-char-1777592678017-816ea5b7.png"},
       ]}
       title="Proven Results"
       description="Our sites deliver measurable impact for small businesses."
@@ -153,40 +117,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah Johnson",
-          role: "Cafe Owner",
-          testimonial: "My cafe was invisible before this site. Now we have orders coming in daily!",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-confident-local-small-busi-1777592583678-66142838.png",
-        },
+          id: "1",          name: "Sarah Johnson",          role: "Cafe Owner",          testimonial: "My cafe was invisible before this site. Now we have orders coming in daily!",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-confident-local-small-busi-1777592583678-66142838.png"},
         {
-          id: "2",
-          name: "Mark Miller",
-          role: "Workshop Owner",
-          testimonial: "Professional work, quick support, and actual results. Simply amazing.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-local-cafe-owner-looking-s-1777592592267-1d33be97.png",
-        },
+          id: "2",          name: "Mark Miller",          role: "Workshop Owner",          testimonial: "Professional work, quick support, and actual results. Simply amazing.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-local-cafe-owner-looking-s-1777592592267-1d33be97.png"},
         {
-          id: "3",
-          name: "Jenny Chen",
-          role: "Boutique Owner",
-          testimonial: "Everything I needed to launch my store online in one place.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-local-workshop-owner-1777592602553-3dde518f.png",
-        },
+          id: "3",          name: "Jenny Chen",          role: "Boutique Owner",          testimonial: "Everything I needed to launch my store online in one place.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-local-workshop-owner-1777592602553-3dde518f.png"},
         {
-          id: "4",
-          name: "David Smith",
-          role: "General Manager",
-          testimonial: "Highly recommended for any local shop wanting more reach.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-creative-agency-client-1777592613540-8bed90b6.png",
-        },
+          id: "4",          name: "David Smith",          role: "General Manager",          testimonial: "Highly recommended for any local shop wanting more reach.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-creative-agency-client-1777592613540-8bed90b6.png"},
         {
-          id: "5",
-          name: "Elena Ross",
-          role: "Retail Lead",
-          testimonial: "They made our transition from offline to digital extremely simple.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-happy-retail-business-owne-1777592622776-cffb2ca5.png",
-        },
+          id: "5",          name: "Elena Ross",          role: "Retail Lead",          testimonial: "They made our transition from offline to digital extremely simple.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/portrait-of-a-happy-retail-business-owne-1777592622776-cffb2ca5.png"},
       ]}
       title="Loved by Business Owners"
       description="See how we've helped local businesses transition to the digital age."
@@ -198,20 +137,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "How long does it take?",
-          content: "Most sites are completed within 2 weeks after gathering requirements.",
-        },
+          id: "q1",          title: "How long does it take?",          content: "Most sites are completed within 2 weeks after gathering requirements."},
         {
-          id: "q2",
-          title: "Do I need technical skills?",
-          content: "Absolutely not! We manage everything from start to finish.",
-        },
+          id: "q2",          title: "Do I need technical skills?",          content: "Absolutely not! We manage everything from start to finish."},
         {
-          id: "q3",
-          title: "What about security?",
-          content: "We include SSL and advanced security protocols on all sites.",
-        },
+          id: "q3",          title: "What about security?",          content: "We include SSL and advanced security protocols on all sites."},
       ]}
       sideTitle="Questions? Answers."
       sideDescription="Everything you need to know about working with us."
@@ -226,28 +156,17 @@ export default function LandingPage() {
       description="Let's discuss your vision and get your local business online today."
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "business",
-          type: "text",
-          placeholder: "Business Name",
-          required: true,
+          name: "business",          type: "text",          placeholder: "Business Name",          required: true,
         },
         {
-          name: "email",
-          type: "email",
-          placeholder: "Email Address",
-          required: true,
+          name: "email",          type: "email",          placeholder: "Email Address",          required: true,
         },
       ]}
       textarea={{
-        name: "message",
-        placeholder: "How can we help?",
-        rows: 4,
+        name: "message",        placeholder: "How can we help?",        rows: 4,
         required: true,
       }}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/professional-office-reception-and-modern-1777592632201-43e7d832.png"
@@ -257,44 +176,30 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterMedia
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2Qk1okt1zvqqOBkpMsWoBGPUB/abstract-geometric-pattern-with-soft-blu-1777592641195-1a01c12d.png"
-      logoText="LocalWeb Pro"
+      logoText="NexaSites.com"
       columns={[
         {
-          title: "Quick Links",
-          items: [
+          title: "Quick Links",          items: [
             {
-              label: "Home",
-              href: "#hero",
-            },
+              label: "Home",              href: "#hero"},
             {
-              label: "Services",
-              href: "#features",
-            },
+              label: "Services",              href: "#features"},
             {
-              label: "Testimonials",
-              href: "#testimonials",
-            },
+              label: "Testimonials",              href: "#testimonials"},
           ],
         },
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "#",
-            },
+              label: "About",              href: "#"},
             {
-              label: "Privacy",
-              href: "#",
-            },
+              label: "Privacy",              href: "#"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
       ]}
-      copyrightText="© 2025 LocalWeb Pro. All rights reserved."
+      copyrightText="© 2025 NexaSites.com. All rights reserved."
     />
   </div>
       </ReactLenis>
