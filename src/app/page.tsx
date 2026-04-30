@@ -2,10 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
@@ -128,18 +128,20 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplit
-        tag="Launch Now"
+      <ContactSplitForm
         title="Ready to get started?"
-        description="We'll help take your local business to the next level."
-        buttonText="Send Request"
+        description="Fill out the form below and we'll be in touch within 24 hours."
+        inputs={[
+          { name: "name", type: "text", placeholder: "Full Name", required: true },
+          { name: "email", type: "email", placeholder: "Email Address", required: true }
+        ]}
+        buttonText="Submit Request"
         useInvertedBackground={false}
-        background={{ variant: "plain" }}
       />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseCard
+      <FooterBaseReveal
         logoText="NexaSites.com"
         columns={[
           { title: "Navigation", items: [
